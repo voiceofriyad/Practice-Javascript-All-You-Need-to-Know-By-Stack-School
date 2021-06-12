@@ -6,3 +6,4 @@ console.log(9 + 9);
 console.log('9' + 9);
 console.log('Ans to the q no: ' + 12);
 
+

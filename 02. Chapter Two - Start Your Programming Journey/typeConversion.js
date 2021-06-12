@@ -18,7 +18,6 @@ console.log(Boolean(-Infinity));
 
 
 
-
 console.log(Boolean(''));
 console.log(Boolean('abcde'));
 

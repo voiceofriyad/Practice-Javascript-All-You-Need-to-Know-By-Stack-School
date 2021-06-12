@@ -6,3 +6,4 @@ console.log(hex1);
 
 var oct = 0756;
 console.log(oct);
+
