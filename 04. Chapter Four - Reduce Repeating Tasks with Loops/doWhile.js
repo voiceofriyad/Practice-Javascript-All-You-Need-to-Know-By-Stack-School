@@ -1,5 +1,5 @@
 isRunning = false
 
 do{
-    console.log('I am runaning')
+    console.log('I am running')
 } while(isRunning)

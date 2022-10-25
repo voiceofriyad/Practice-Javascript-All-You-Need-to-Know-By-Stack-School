@@ -23,3 +23,4 @@ console.log(arr2)
 
 var arr2 = Array(1, 2, 3)
 console.log(arr2)
+

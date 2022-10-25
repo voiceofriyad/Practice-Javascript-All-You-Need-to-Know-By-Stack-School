@@ -47,4 +47,3 @@ d[1] = 20
 console.log(c)
 console.log(d)
 
-

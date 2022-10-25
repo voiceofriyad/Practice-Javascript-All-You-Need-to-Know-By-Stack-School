@@ -7,3 +7,4 @@ var y = 'sg'
 console.log(x > y)
 
 console.log('001' == 1)
+

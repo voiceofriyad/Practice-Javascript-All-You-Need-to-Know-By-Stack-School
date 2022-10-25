@@ -14,3 +14,4 @@ console.log(length)
 
 console.log(str.length)
 console.log('gfhflghfuisghsguhfgdf'.length)
+

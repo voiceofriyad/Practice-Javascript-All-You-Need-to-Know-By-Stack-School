@@ -18,3 +18,4 @@ if (n % 2 == 0){
 if (n % 2 == 1){
     console.log(n + ' is Odd Number')
 }
+

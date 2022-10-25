@@ -21,3 +21,4 @@ var b13 = Boolean(-25445);
 var b14 = Boolean(!25445);
 
 console.log(b8, b9, b10, b11, b12, b13, b14);
+

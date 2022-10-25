@@ -30,3 +30,4 @@ console.log('      gfergfkdfsgudf     ')
 console.log('      gfergfkdfsgudf     '.trim())
 
 console.log(d.split(' '))
+

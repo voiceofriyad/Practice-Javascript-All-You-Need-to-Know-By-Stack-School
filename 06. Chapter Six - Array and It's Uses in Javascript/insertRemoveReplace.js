@@ -43,3 +43,4 @@ console.log(arr4)
 var arr5 = [100, 200, 300, 400, 500]
 arr5.splice(2, 1, 256)
 console.log(arr5)
+
