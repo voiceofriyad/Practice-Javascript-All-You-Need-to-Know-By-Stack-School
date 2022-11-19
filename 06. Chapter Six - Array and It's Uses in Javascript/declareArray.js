@@ -24,3 +24,20 @@ console.log(arr2)
 var arr2 = Array(1, 2, 3)
 console.log(arr2)
 
+
+
+var arr3 = [1, 2, 3, 4, 5]
+console.log (arr3.length)
+
+
+var length = 0
+
+while (true) {
+    if (arr3 [length] == undefined){
+        break
+    } else {
+        length++
+    }
+}
+
+console.log (length)

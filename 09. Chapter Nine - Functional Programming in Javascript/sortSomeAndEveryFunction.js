@@ -91,3 +91,4 @@ var res4 = arr.some(function (value) {
 })
 
 console.log(res4)
+

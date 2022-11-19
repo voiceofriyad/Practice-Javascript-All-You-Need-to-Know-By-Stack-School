@@ -22,3 +22,4 @@ console.log(obj.sum(2, 3))
 setTimeout(function () {
     console.log('I have created...')
 }, 5000)
+

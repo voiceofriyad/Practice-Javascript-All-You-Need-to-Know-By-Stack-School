@@ -38,3 +38,20 @@ var base5 = base(5)
 console.log(base5(2))
 console.log(base5(3))
 console.log(base5(5))
+
+
+function base (b) {
+    function power (n) {
+       var result = 1
+        for (var i = 1; i <= n; i++) {
+            result =  result * b
+        }
+        return result
+    }
+    return power
+}
+
+
+console.log (base (10) (2))
+console.log (base (2) (10))
+

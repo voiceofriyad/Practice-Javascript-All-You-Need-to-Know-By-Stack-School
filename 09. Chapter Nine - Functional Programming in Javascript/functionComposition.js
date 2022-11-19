@@ -14,3 +14,4 @@ function add(a, b) {
 
 print(multipleByFive(add(2, 3)))
 print(multipleByFive(add(5, 6)))
+

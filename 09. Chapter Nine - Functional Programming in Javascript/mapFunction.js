@@ -13,7 +13,7 @@ function myMap(arr, cb) {
     var newArr = []
 
     for (var i = 0; i < arr.length; i++) {
-        //var temp = arr[i] * arr[i]
+        //var temp = arr[i] * arr[i]lll
         var temp = cb(arr[i], i, arr)
         newArr.push(temp)
     }
@@ -34,3 +34,4 @@ var mten = myMap(arr, function (value) {
 console.log(arr)
 console.log(qb)
 console.log(mten)
+
