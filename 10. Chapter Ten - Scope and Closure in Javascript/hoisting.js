@@ -1,5 +1,5 @@
 var a = 100
-newPrint(a)
+//newPrint(a)
 
 print(10)
 

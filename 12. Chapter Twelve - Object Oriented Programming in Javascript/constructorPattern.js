@@ -19,3 +19,4 @@ rect1.draw()
 
 var rect2 = new Rectangle(15, 12)
 rect2.draw()
+

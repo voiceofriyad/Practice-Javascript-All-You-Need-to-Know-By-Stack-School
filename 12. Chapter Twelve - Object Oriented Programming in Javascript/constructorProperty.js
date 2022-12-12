@@ -29,7 +29,7 @@ var Rectangle = function(width, height) {
     this.width = width
     this.height = height
     
-    this.draw = function() {
+this.draw = function() {
         console.log('I am a rectangle')
         this.printProperties()
     }

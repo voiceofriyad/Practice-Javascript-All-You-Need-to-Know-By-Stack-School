@@ -1,4 +1,4 @@
-var creatRect = function(width, height) {
+var createRect = function(width, height) {
     return {
         width : width,
         height: height,
@@ -15,8 +15,9 @@ var creatRect = function(width, height) {
     }   
 }
 
-var rect1 = creatRect(10, 8)
+var rect1 = createRect(10, 8)
 rect1.draw()
 
-var rect1 = creatRect(15, 12)
+var rect1 = createRect(15, 12)
 rect1.draw()
+

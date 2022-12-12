@@ -26,7 +26,7 @@ function A() {
         var c = 23
         console.log(c)
 
-    }
+    } 
 
     function C() {
         var d = 56

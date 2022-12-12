@@ -1,51 +1,45 @@
-var persons = [
-    {
-        name : 'S',
-        age : 24
-    },
-    {
-        name : 'D',
-        age : 19
-    },
-    {
-        name : 'd',
-        age : 26
-    },
-    {
-        name : 'l',
-        age : 21
+var Rectangle = function(width, height) {
+
+    this.width = width
+    this.height = height
+
+    var position = {
+        x : 56,
+        y : -100
     }
-]
+      
+    var printProperties = function() { 
+        console.log('My Width is ' + this.width)
+        console.log('My Height is ' + this.height)
+    }.bind (this) 
+    
+    // this.getPosition = function () {
+    //     return position
+    // }
 
-var arr = [4, 8, 1, 6, 7, 9, 4, 3, 5, 6, 8, 2, 1, 7]
-
-arr.sort (function (a, b) {
-    if (a > b) {
-        return 1
-    } else if (a < b) {
-        return -1
-    } else {
-        return 0
+    this.draw = function() {
+        console.log('I am a rectangle')
+        printProperties()
+        //console.log (this)
+        console.log ('Position : X = ' + position.x + ' Y = ' + position.y)
     }
-}) 
 
-console.log (arr)
+    Object.defineProperty (this, 'position', {
+        get : function () {
+            return position
+        },
+        set : function (Value) {
+            position = Value
+        }
+    })
+}
 
-persons.sort (function (a, b) {
-    if (a.name > b.name) {
-        return 1
-    } else if (a.name < b.name) {
-        return -1
-    } else {
-        return 0
-    }
-})
+var rect1 = new Rectangle(10, 8)
+rect1.draw()
 
-console.log (persons)
-
-
-var es = arr.every (function (value) {
-    return value > 0 
-})
-
-console.log (es)
+console.log (rect1.position)
+rect1.position =  {
+    x : 20,
+    y : 200
+}
+console.log (rect1.position)
