@@ -449,3 +449,71 @@
 // console.log (weakMap)
 // console.log (weakMap.has (b))
 
+
+
+// let n = 10
+
+// if (n > 5) {
+//     throw new Error ('n is greater than 10')
+// }
+
+// let n = Number.parseInt ('45.656')
+// console.log (n)
+
+// function changeToInt (v) {
+//     let result = Number.parseInt (v)
+
+//     if (!result) {
+//         return 'please provide'
+//     } 
+
+//     return result
+// }
+
+// let result = changeToInt ('hkj56.465')
+// console.log (result)
+
+// function makeWords (text) {
+//     // let str = text.trim ()
+//     // let words = str.split (' ')
+//     // return words
+
+//     try {
+//         let str = text.trim ()
+//         let words = str.split (' ')
+//         return words
+//     } catch (e) {
+//         // console.log (e.message)
+//         console.log ('provide valid text')
+//     }
+// }
+
+// // let words = makeWords ('       make make tea')
+// // console.log (words)
+
+// let words = makeWords (59)
+// console.log (words)
+
+// class CustomError extends Error {
+//     constructor (msg) {
+//         super (msg)
+
+//         if (Error.captureStackTrace) {
+//             Error.captureStackTrace (this, CustomError)
+//         }
+//     }
+// }
+
+// try {
+//     console.log ('I am line 1')
+//     // console.error ('I am line 2')
+//     console.log ('I am line 3')
+//     throw new CustomError ('I am Error')
+//     console.log ('I am line 5')
+// } catch (e) {
+//     console.log (e)
+//     console.log ('this is custom error')
+// } finally {
+//     console.log ('I am Finally')
+// }
+
